@@ -1,0 +1,48 @@
+.gameButtons {
+	-fx-background-radius:0;
+	-fx-font-size: 12px
+}
+
+.mine {
+	-fx-background-image: url('Resources/mine.png');
+    -fx-background-size: 70% 70%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.flag {
+	-fx-background-image: url('Resources/flag.png');
+    -fx-background-size: 70% 70%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.simbols {
+	-fx-font-size: 7px !important ;
+}
+
+.btndiv {
+	-fx-background-color: #a9d751;
+}
+
+.btnundiv {
+	-fx-background-color: #a2d048;
+}
+.btndiv:hover {
+	-fx-background-color: #b8dd76;
+	
+}
+.btnundiv:hover {
+	-fx-background-color: #b8dd76;
+	
+}
+
+.btndiv:disabled {
+	-fx-background-color: #e5c29f;
+	-fx-opacity: 1.0 ;
+}
+
+.btnundiv:disabled {
+	-fx-background-color: #d7b899;
+	-fx-opacity: 1.0 ;
+}
